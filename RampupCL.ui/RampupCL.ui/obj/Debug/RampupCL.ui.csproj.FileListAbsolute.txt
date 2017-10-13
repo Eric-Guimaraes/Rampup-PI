@@ -1,0 +1,11 @@
+C:\ws\Rampup-PI\RampupCL.ui\RampupCL.ui\obj\Debug\RampupCL.ui.csprojResolveAssemblyReference.cache
+C:\ws\Rampup-PI\RampupCL.ui\RampupCL.ui\obj\Debug\RampupCL.ui.Form1.resources
+C:\ws\Rampup-PI\RampupCL.ui\RampupCL.ui\obj\Debug\RampupCL.ui.Properties.Resources.resources
+C:\ws\Rampup-PI\RampupCL.ui\RampupCL.ui\obj\Debug\RampupCL.ui.csproj.GenerateResource.Cache
+C:\ws\Rampup-PI\RampupCL.ui\RampupCL.ui\obj\Debug\RampupCL.ui.csproj.CoreCompileInputs.cache
+C:\ws\Rampup-PI\RampupCL.ui\RampupCL.ui\bin\Debug\RampupCL.ui.exe.config
+C:\ws\Rampup-PI\RampupCL.ui\RampupCL.ui\bin\Debug\RampupCL.ui.exe
+C:\ws\Rampup-PI\RampupCL.ui\RampupCL.ui\bin\Debug\RampupCL.ui.pdb
+C:\ws\Rampup-PI\RampupCL.ui\RampupCL.ui\obj\Debug\RampupCL.ui.exe
+C:\ws\Rampup-PI\RampupCL.ui\RampupCL.ui\obj\Debug\RampupCL.ui.pdb
+C:\ws\Rampup-PI\RampupCL.ui\RampupCL.ui\bin\Debug\RampupCL.dll

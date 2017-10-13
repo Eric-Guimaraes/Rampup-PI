@@ -1,0 +1,11 @@
+C:\ws\Rampup-PI\Rampup.Atv01\Rampup.Atv01.UI\obj\Debug\Rampup.Atv01.UI.csprojResolveAssemblyReference.cache
+C:\ws\Rampup-PI\Rampup.Atv01\Rampup.Atv01.UI\obj\Debug\Rampup.Atv01.UI.frmBookRegister.resources
+C:\ws\Rampup-PI\Rampup.Atv01\Rampup.Atv01.UI\obj\Debug\Rampup.Atv01.UI.Properties.Resources.resources
+C:\ws\Rampup-PI\Rampup.Atv01\Rampup.Atv01.UI\obj\Debug\Rampup.Atv01.UI.csproj.GenerateResource.Cache
+C:\ws\Rampup-PI\Rampup.Atv01\Rampup.Atv01.UI\obj\Debug\Rampup.Atv01.UI.csproj.CoreCompileInputs.cache
+C:\ws\Rampup-PI\Rampup.Atv01\Rampup.Atv01.UI\bin\Debug\Rampup.Atv01.UI.exe.config
+C:\ws\Rampup-PI\Rampup.Atv01\Rampup.Atv01.UI\bin\Debug\Rampup.Atv01.UI.exe
+C:\ws\Rampup-PI\Rampup.Atv01\Rampup.Atv01.UI\bin\Debug\Rampup.Atv01.UI.pdb
+C:\ws\Rampup-PI\Rampup.Atv01\Rampup.Atv01.UI\bin\Debug\Rampup.Atv01.Model.dll
+C:\ws\Rampup-PI\Rampup.Atv01\Rampup.Atv01.UI\obj\Debug\Rampup.Atv01.UI.exe
+C:\ws\Rampup-PI\Rampup.Atv01\Rampup.Atv01.UI\obj\Debug\Rampup.Atv01.UI.pdb

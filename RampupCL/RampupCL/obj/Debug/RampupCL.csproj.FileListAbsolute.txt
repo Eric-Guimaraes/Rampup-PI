@@ -1,0 +1,6 @@
+C:\ws\Rampup-PI\RampupCL\RampupCL\bin\Debug\RampupCL.dll
+C:\ws\Rampup-PI\RampupCL\RampupCL\bin\Debug\RampupCL.pdb
+C:\ws\Rampup-PI\RampupCL\RampupCL\obj\Debug\RampupCL.csprojResolveAssemblyReference.cache
+C:\ws\Rampup-PI\RampupCL\RampupCL\obj\Debug\RampupCL.csproj.CoreCompileInputs.cache
+C:\ws\Rampup-PI\RampupCL\RampupCL\obj\Debug\RampupCL.dll
+C:\ws\Rampup-PI\RampupCL\RampupCL\obj\Debug\RampupCL.pdb

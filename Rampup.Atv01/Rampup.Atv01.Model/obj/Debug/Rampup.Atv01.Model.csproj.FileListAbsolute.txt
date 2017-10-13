@@ -1,0 +1,6 @@
+C:\ws\Rampup-PI\Rampup.Atv01\Rampup.Atv01.Model\obj\Debug\Rampup.Atv01.Model.csprojResolveAssemblyReference.cache
+C:\ws\Rampup-PI\Rampup.Atv01\Rampup.Atv01.Model\obj\Debug\Rampup.Atv01.Model.csproj.CoreCompileInputs.cache
+C:\ws\Rampup-PI\Rampup.Atv01\Rampup.Atv01.Model\bin\Debug\Rampup.Atv01.Model.dll
+C:\ws\Rampup-PI\Rampup.Atv01\Rampup.Atv01.Model\bin\Debug\Rampup.Atv01.Model.pdb
+C:\ws\Rampup-PI\Rampup.Atv01\Rampup.Atv01.Model\obj\Debug\Rampup.Atv01.Model.dll
+C:\ws\Rampup-PI\Rampup.Atv01\Rampup.Atv01.Model\obj\Debug\Rampup.Atv01.Model.pdb

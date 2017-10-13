@@ -1,0 +1,7 @@
+C:\ws\Rampup-PI\Rampup.tipos\Rampup.tipos\obj\Debug\Rampup.tipos.csprojResolveAssemblyReference.cache
+C:\ws\Rampup-PI\Rampup.tipos\Rampup.tipos\obj\Debug\Rampup.tipos.csproj.CoreCompileInputs.cache
+C:\ws\Rampup-PI\Rampup.tipos\Rampup.tipos\bin\Debug\Rampup.tipos.exe.config
+C:\ws\Rampup-PI\Rampup.tipos\Rampup.tipos\bin\Debug\Rampup.tipos.exe
+C:\ws\Rampup-PI\Rampup.tipos\Rampup.tipos\bin\Debug\Rampup.tipos.pdb
+C:\ws\Rampup-PI\Rampup.tipos\Rampup.tipos\obj\Debug\Rampup.tipos.exe
+C:\ws\Rampup-PI\Rampup.tipos\Rampup.tipos\obj\Debug\Rampup.tipos.pdb
