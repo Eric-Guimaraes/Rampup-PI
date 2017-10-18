@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rampup.Atv02.CL", "Rampup.Atv03.CL\Rampup.Atv02.CL.csproj", "{F2252CEC-B134-4423-9085-5E40E42F916E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rampup.Atv02.Construtor.UI", "Rampup.Atv02.Construtor.UI\Rampup.Atv02.Construtor.UI.csproj", "{24A89C75-EAC2-4EB9-85BD-D7365E393966}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F2252CEC-B134-4423-9085-5E40E42F916E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2252CEC-B134-4423-9085-5E40E42F916E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2252CEC-B134-4423-9085-5E40E42F916E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2252CEC-B134-4423-9085-5E40E42F916E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24A89C75-EAC2-4EB9-85BD-D7365E393966}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24A89C75-EAC2-4EB9-85BD-D7365E393966}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24A89C75-EAC2-4EB9-85BD-D7365E393966}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24A89C75-EAC2-4EB9-85BD-D7365E393966}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {803635CE-ADDF-4E0E-AE4F-B85DF9FC9340}
+	EndGlobalSection
+EndGlobal
