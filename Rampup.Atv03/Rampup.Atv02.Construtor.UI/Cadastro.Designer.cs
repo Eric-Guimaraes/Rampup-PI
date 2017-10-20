@@ -32,8 +32,10 @@
             this.label_txtNome = new System.Windows.Forms.Label();
             this.label_txtCPF = new System.Windows.Forms.Label();
             this.txtCPF = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.rdbtnContaCorrente = new System.Windows.Forms.RadioButton();
+            this.rdbtnPoupanca = new System.Windows.Forms.RadioButton();
+            this.labelRadioBtnTipoDeConta = new System.Windows.Forms.Label();
+            this.btnConfirm = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtNome
@@ -68,29 +70,56 @@
             this.txtCPF.Size = new System.Drawing.Size(100, 20);
             this.txtCPF.TabIndex = 2;
             // 
-            // label2
+            // rdbtnContaCorrente
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(15, 133);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(82, 13);
-            this.label2.TabIndex = 5;
-            this.label2.Text = "Nome Completo";
+            this.rdbtnContaCorrente.AutoSize = true;
+            this.rdbtnContaCorrente.Location = new System.Drawing.Point(15, 154);
+            this.rdbtnContaCorrente.Name = "rdbtnContaCorrente";
+            this.rdbtnContaCorrente.Size = new System.Drawing.Size(96, 17);
+            this.rdbtnContaCorrente.TabIndex = 4;
+            this.rdbtnContaCorrente.TabStop = true;
+            this.rdbtnContaCorrente.Text = "Conta Corrente";
+            this.rdbtnContaCorrente.UseVisualStyleBackColor = true;
             // 
-            // textBox2
+            // rdbtnPoupanca
             // 
-            this.textBox2.Location = new System.Drawing.Point(15, 149);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 4;
+            this.rdbtnPoupanca.AutoSize = true;
+            this.rdbtnPoupanca.Location = new System.Drawing.Point(15, 179);
+            this.rdbtnPoupanca.Name = "rdbtnPoupanca";
+            this.rdbtnPoupanca.Size = new System.Drawing.Size(74, 17);
+            this.rdbtnPoupanca.TabIndex = 5;
+            this.rdbtnPoupanca.TabStop = true;
+            this.rdbtnPoupanca.Text = "Poupança";
+            this.rdbtnPoupanca.UseVisualStyleBackColor = true;
+            // 
+            // labelRadioBtnTipoDeConta
+            // 
+            this.labelRadioBtnTipoDeConta.AutoSize = true;
+            this.labelRadioBtnTipoDeConta.Location = new System.Drawing.Point(23, 138);
+            this.labelRadioBtnTipoDeConta.Name = "labelRadioBtnTipoDeConta";
+            this.labelRadioBtnTipoDeConta.Size = new System.Drawing.Size(74, 13);
+            this.labelRadioBtnTipoDeConta.TabIndex = 6;
+            this.labelRadioBtnTipoDeConta.Text = "Tipo de Conta";
+            // 
+            // btnConfirm
+            // 
+            this.btnConfirm.Location = new System.Drawing.Point(197, 226);
+            this.btnConfirm.Name = "btnConfirm";
+            this.btnConfirm.Size = new System.Drawing.Size(75, 23);
+            this.btnConfirm.TabIndex = 7;
+            this.btnConfirm.Text = "Confirmar";
+            this.btnConfirm.UseVisualStyleBackColor = true;
+            this.btnConfirm.Click += new System.EventHandler(this.btnConfirm_Click);
             // 
             // Cadastro
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 261);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.btnConfirm);
+            this.Controls.Add(this.labelRadioBtnTipoDeConta);
+            this.Controls.Add(this.rdbtnPoupanca);
+            this.Controls.Add(this.rdbtnContaCorrente);
             this.Controls.Add(this.label_txtCPF);
             this.Controls.Add(this.txtCPF);
             this.Controls.Add(this.label_txtNome);
@@ -109,8 +138,10 @@
         private System.Windows.Forms.Label label_txtNome;
         private System.Windows.Forms.Label label_txtCPF;
         private System.Windows.Forms.TextBox txtCPF;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.RadioButton rdbtnContaCorrente;
+        private System.Windows.Forms.RadioButton rdbtnPoupanca;
+        private System.Windows.Forms.Label labelRadioBtnTipoDeConta;
+        private System.Windows.Forms.Button btnConfirm;
     }
 }
 

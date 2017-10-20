@@ -1,12 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace Rampup.Atv02.Construtor.CL
 {
-    class Conta
+    public class Conta
     {
         int NumConta { get; set; }
         string NomeTitular { get; set; }
@@ -14,29 +15,45 @@ namespace Rampup.Atv02.Construtor.CL
         int TipoDeConta { get; set; }
         float Saldo { get; set; }
 
-        public Conta(int NumConta, string NomeTitular, int CPF, int TipoDeConta)
+        private void ArrayStarter()
         {
-            Conta conta = new Conta();
-            this.NumConta = NumConta;
+            List<Conta> ListaDeContas = new List<Conta>();
+        }
+
+        public Conta(string NomeTitular, int CPF, int TipoDeConta, List<Conta> ListaDeContas)
+        {
+            Conta aux = new Conta(NomeTitular, CPF, TipoDeConta, ListaDeContas);
+
+            this.NumConta = (ListaDeContas.Count)-1;
             this.NomeTitular = NomeTitular;
             this.CPF = CPF;
             this.TipoDeConta = TipoDeConta;
             this.Saldo = 0;
-            
+
+            ListaDeContas.Add(aux);
         }
 
-        public void CreditTransaction(Conta conta, float Value, int index)
+        public void CreditTransaction(List<Conta> ListaDeContas, float Value, int index)
         {
-            conta[index].Saldo = conta.Saldo + Value;
+            Conta aux = ListaDeContas[index];
+            aux.Saldo = aux.Saldo + Value;
         }
         public void DebitTransaction(Conta conta, float Value)
         {
             conta.Saldo = conta.Saldo - Value;
         }
-        public float Consultar_Saldo(Conta conta)
+        public float ConsultarSaldo(List<Conta> ListaDeContas, int NumConta)
         {
+            int j = -1; //O valor -1 serve como retorno de erro, pois números de conta negativos não são válidos na estrutura que criei.
 
+            for(int i=0; i< ListaDeContas.Count; i++)
+            {
+                if (ListaDeContas[i].NumConta == NumConta)
+                {
+                    j = i;
+                }
+            }
+            return ListaDeContas[j].Saldo;
         }
     }
-    public class ArrayList : Conta
 }
