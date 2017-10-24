@@ -13,13 +13,13 @@ namespace Rampup.Atv02.Construtor.UI
 {
     public partial class Cadastro : Form
     {
-        public Form cPai;
+        public Form backIndex;
 
         List<Conta> ListaDeContas = new List<Conta>();
-        public Cadastro(Form cPai)
+        public Cadastro(Form backIndex)
         {
             InitializeComponent();
-            this.cPai = cPai;
+            this.backIndex = backIndex;
         }
 
         private void btnConfirm_Click(object sender, EventArgs e)
@@ -41,7 +41,7 @@ namespace Rampup.Atv02.Construtor.UI
             }
 
             Conta aux = new Conta(NomeTitular, CPF, TipoDeConta, ListaDeContas);
-            cPai.Show();
+            backIndex.Show();
             Close();
         }
     }

@@ -1,6 +1,6 @@
-﻿namespace DeleteUser
+﻿namespace Rampup.Atv02.Construtor.UI
 {
-    partial class DeleteUser
+    partial class Excluir
     {
         /// <summary>
         /// Required designer variable.
@@ -28,17 +28,27 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.txtMenuStrip = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.lbl = new System.Windows.Forms.Label();
-            this.txtAccountNumber = new System.Windows.Forms.TextBox();
             this.btnSendValue = new System.Windows.Forms.Button();
+            this.txtAccountNumber = new System.Windows.Forms.TextBox();
+            this.lbl = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // txtMenuStrip
+            // btnSendValue
             // 
-            this.txtMenuStrip.Name = "txtMenuStrip";
-            this.txtMenuStrip.Size = new System.Drawing.Size(61, 4);
+            this.btnSendValue.Location = new System.Drawing.Point(98, 124);
+            this.btnSendValue.Name = "btnSendValue";
+            this.btnSendValue.Size = new System.Drawing.Size(75, 23);
+            this.btnSendValue.TabIndex = 7;
+            this.btnSendValue.Text = "Enviar";
+            this.btnSendValue.UseVisualStyleBackColor = true;
+            this.btnSendValue.Click += new System.EventHandler(this.btnSendValue_Click);
+            // 
+            // txtAccountNumber
+            // 
+            this.txtAccountNumber.Location = new System.Drawing.Point(107, 89);
+            this.txtAccountNumber.Name = "txtAccountNumber";
+            this.txtAccountNumber.Size = new System.Drawing.Size(55, 20);
+            this.txtAccountNumber.TabIndex = 6;
             // 
             // lbl
             // 
@@ -46,27 +56,10 @@
             this.lbl.Location = new System.Drawing.Point(37, 73);
             this.lbl.Name = "lbl";
             this.lbl.Size = new System.Drawing.Size(210, 13);
-            this.lbl.TabIndex = 2;
+            this.lbl.TabIndex = 5;
             this.lbl.Text = "Informe o Numero da Conta a ser excluída:";
             // 
-            // txtAccountNumber
-            // 
-            this.txtAccountNumber.Location = new System.Drawing.Point(107, 89);
-            this.txtAccountNumber.Name = "txtAccountNumber";
-            this.txtAccountNumber.Size = new System.Drawing.Size(55, 20);
-            this.txtAccountNumber.TabIndex = 3;
-            // 
-            // btnSendValue
-            // 
-            this.btnSendValue.Location = new System.Drawing.Point(98, 124);
-            this.btnSendValue.Name = "btnSendValue";
-            this.btnSendValue.Size = new System.Drawing.Size(75, 23);
-            this.btnSendValue.TabIndex = 4;
-            this.btnSendValue.Text = "Enviar";
-            this.btnSendValue.UseVisualStyleBackColor = true;
-            this.btnSendValue.Click += new System.EventHandler(this.btnSendValue_Click);
-            // 
-            // DeleteUser
+            // Excluir
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -74,18 +67,17 @@
             this.Controls.Add(this.btnSendValue);
             this.Controls.Add(this.txtAccountNumber);
             this.Controls.Add(this.lbl);
-            this.Name = "DeleteUser";
-            this.Text = "Excluir Cadastro";
+            this.Name = "Excluir";
+            this.Text = "Excluir";
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-        private System.Windows.Forms.ContextMenuStrip txtMenuStrip;
-        private System.Windows.Forms.Label lbl;
-        private System.Windows.Forms.TextBox txtAccountNumber;
+
         private System.Windows.Forms.Button btnSendValue;
+        private System.Windows.Forms.TextBox txtAccountNumber;
+        private System.Windows.Forms.Label lbl;
     }
 }
-

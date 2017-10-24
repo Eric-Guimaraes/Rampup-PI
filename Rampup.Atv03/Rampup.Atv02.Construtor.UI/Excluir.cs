@@ -7,21 +7,23 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Rampup.Atv02.Construtor.CL;
 
-namespace DeleteUser
+namespace Rampup.Atv02.Construtor.UI
 {
-    public partial class DeleteUser : Form
+    public partial class Excluir : Form
     {
-        public DeleteUser()
+        public List<Conta> ListaDeContas;
+        public Excluir()
         {
             InitializeComponent();
         }
 
         private void btnSendValue_Click(object sender, EventArgs e)
         {
-            int NumberAccount;
+            int AccountNumber = Convert.ToInt32(txtAccountNumber.Text);
 
-            NumberAccount = Convert.ToInt32(txtAccountNumber);
+            ListaDeContas.DeleteUser(ListaDeContas, AccountNumber);
         }
     }
 }

@@ -9,11 +9,11 @@ namespace Rampup.Atv02.Construtor.CL
 {
     public class Conta
     {
-        int NumConta { get; set; }
-        string NomeTitular { get; set; }
-        int CPF { get; set; }
-        int TipoDeConta { get; set; }
-        float Saldo { get; set; }
+        public int NumConta { get; set; }
+        public string NomeTitular { get; set; }
+        public int CPF { get; set; }
+        public int TipoDeConta { get; set; }
+        public float Saldo { get; set; }
 
         private void ArrayStarter()
         {
@@ -24,13 +24,24 @@ namespace Rampup.Atv02.Construtor.CL
         {
             Conta aux = new Conta(NomeTitular, CPF, TipoDeConta, ListaDeContas);
 
-            this.NumConta = (ListaDeContas.Count)-1;
+            this.NumConta = (ListaDeContas.Count) - 1;
             this.NomeTitular = NomeTitular;
             this.CPF = CPF;
             this.TipoDeConta = TipoDeConta;
             this.Saldo = 0;
 
             ListaDeContas.Add(aux);
+        }
+
+        public void DeleteUser(List<Conta> ListaDeContas, int NumConta) 
+        {
+            for(int i=0; i<ListaDeContas.Count; i++)
+            {
+                if(ListaDeContas[i].NumConta == NumConta)
+                {
+                    ListaDeContas.Remove(ListaDeContas[i]);
+                }
+            }
         }
 
         public void CreditTransaction(List<Conta> ListaDeContas, float Value, int index)
