@@ -19,7 +19,7 @@ namespace Rampup.Atv02.Construtor.UI
 
         private void btnNewUser_Click(object sender, EventArgs e)
         {
-            Cadastro cadastro = new Cadastro();
+            Cadastro cadastro = new Cadastro(this);
             cadastro.Show();
             Hide();
         }
