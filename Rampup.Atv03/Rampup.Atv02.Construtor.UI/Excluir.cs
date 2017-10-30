@@ -13,17 +13,23 @@ namespace Rampup.Atv02.Construtor.UI
 {
     public partial class Excluir : Form
     {
-        public List<Conta> ListaDeContas;
-        public Excluir()
+        Form backIndex = new Form();
+        List<Conta> ListaDeContas = new List<Conta>();
+        
+        public Excluir(Form backIndex)
         {
             InitializeComponent();
+            this.backIndex = backIndex;
         }
 
         private void btnSendValue_Click(object sender, EventArgs e)
         {
             int AccountNumber = Convert.ToInt32(txtAccountNumber.Text);
 
-            ListaDeContas.DeleteUser(ListaDeContas, AccountNumber);
+            ListaDeContas[AccountNumber].DeleteUser(ListaDeContas, AccountNumber);
+
+            backIndex.Show();
+            Close();
         }
     }
 }
